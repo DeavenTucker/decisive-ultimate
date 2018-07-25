@@ -1,3 +1,56 @@
 page-home {
 
-}
+    ion-content{
+       background-color: #F23A4E !important;
+   
+    }  
+    .name-font{
+        font-family: 'Lemonada';
+        font-size: 48px;
+        color: white;
+        text-align: center;
+        margin-top: 7px
+    }
+
+    .groupLogo{
+        display: block;
+        margin: auto;
+        height: 170x;
+        width: 170px;
+        margin-top: -7px;
+    }
+    
+    .myButton{
+        height: 100px;
+        font-size: 42px;
+        font-weight: 700;
+        background-color: #F23A4E !important;
+        color: white;
+        margin-top: 80px;
+        -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+   
+    }
+
+    .myButton:focus{
+        height: 100px;
+        font-size: 42px;
+        font-weight: 700;
+        background-color: #F23A4E;
+        color: white;
+        margin-top: 80px;
+        -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+   
+    }
+   
+    .scroll-content{
+        margin: 0 !important;
+        padding-top: 46px !important;
+    }
+    .item-I{
+        background-color: #F23A4E;
+    }
+
+   }
+   

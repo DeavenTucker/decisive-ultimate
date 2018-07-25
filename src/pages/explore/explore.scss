@@ -1,0 +1,30 @@
+page-explore {
+    .toolbar-background{
+        background-color: #F23A4E !important;
+    }
+    ion-content{
+        background-color: white  !important;
+        padding: 0 !important;
+     }
+     .scroll-content{
+        padding: 0 !important;
+    }
+    .back-button{ 
+        color: white !important;
+    }
+
+    .toolbar-title{
+        color: white !important;
+    }
+    .item-inner{
+        height: 140px;
+        overflow: hidden;
+    }
+
+    .x-img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}

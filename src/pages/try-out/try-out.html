@@ -1,0 +1,16 @@
+<!--
+  Generated template for the TryOutPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+<ion-content padding>
+  <div>
+    <img [src]="images[2].url" alt="">
+  </div>
+  <button ion-button (click)="logEvent($event)">Take A Picture</button>
+  <button class="x-button" ion-button full [navPush]="page2">Go Back</button>
+</ion-content>

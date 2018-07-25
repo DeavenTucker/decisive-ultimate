@@ -1,0 +1,44 @@
+page-afro {
+    .toolbar-background{
+        background-color: #F23A4E !important;
+    }
+    ion-content{
+        background-color: white  !important;
+        padding: 0 !important;
+     }
+     .scroll-content{
+        padding: 0 !important;
+    }
+    .back-button{ 
+        color: white !important;
+    }
+
+    .toolbar-title{
+        color: white !important;
+    }
+    .creed-container{
+        width: 275px;
+        height: 250px;
+        margin: auto;
+        overflow: hidden;
+        margin-top: 50px;
+
+    }
+
+    .creed-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .col{
+        text-align: center;
+        color: #F23A4E;
+        font-size: 21px;
+    }
+    .col p{
+        margin: 0;
+        margin-bottom: 2px;
+    }
+   }
+   

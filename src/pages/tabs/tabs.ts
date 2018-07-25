@@ -1,19 +1,29 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { BioPage } from '../bio/bio';
+import { ExplorePage } from '../explore/explore';
 
-import { AboutPage } from '../about/about';
-import { ContactPage } from '../contact/contact';
-import { HomePage } from '../home/home';
+
 
 @Component({
-  templateUrl: 'tabs.html'
+  templateUrl: 'tabs.html',
+  
 })
 export class TabsPage {
 
-  tab1Root = HomePage;
-  tab2Root = AboutPage;
-  tab3Root = ContactPage;
 
-  constructor() {
+  tab2Root = ExplorePage;
+  tab1Root = BioPage;
 
+    constructor(){}
+
+  tabChanged(ev){
+    console.log('tab change')
+    console.log(ev.tabIcon)
+    if(ev.tabIcon === "compass"){
+      console.log('set root');
+      ev.setRoot(ExplorePage);
+    }
   }
 }
+
+
